@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "228630760477",
+    "firebase_url": "https://megatest-2748d-default-rtdb.firebaseio.com",
+    "project_id": "megatest-2748d",
+    "storage_bucket": "megatest-2748d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228630760477:android:ee60569b1d4c7f01c10af4",
+        "android_client_info": {
+          "package_name": "com.example.mega_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQzZhGFpprlkv3HfuHj2tV249h291G7IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
