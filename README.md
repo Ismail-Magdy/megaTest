@@ -5,7 +5,7 @@
 ![ESP32](https://img.shields.io/badge/ESP32-%23000000.svg?style=for-the-badge&logo=espressif)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-![App Design](insert_image_link_here)
+<img width="421" height="471" alt="image" src="https://github.com/user-attachments/assets/10380338-ba58-4197-b47f-142894695a8b" />
 
 > **Bridging robust software architecture with real-time IoT hardware.**
 
