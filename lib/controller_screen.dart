@@ -16,10 +16,12 @@ class _ControllerScreenState extends State<ControllerScreen> {
   }
 
   Widget _buildButton(IconData icon, String command) {
-    return GestureDetector(
-      onTapDown: (_) => _sendCommand(command),
-      onTapUp: (_) => _sendCommand('S'),
-      onTapCancel: () => _sendCommand('S'),
+    return Listener(
+      onPointerDown: (_) => _sendCommand(command),
+      onPointerUp: (_) => _sendCommand('S'),
+      // onTapDown: (_) => _sendCommand(command),
+      // onTapUp: (_) => _sendCommand('S'),
+      // onTapCancel: () => _sendCommand('S'),
       child: Container(
         width: 70,
         height: 70,
@@ -59,7 +61,7 @@ class _ControllerScreenState extends State<ControllerScreen> {
               //
               Row(
                 children: [
-                  _buildButton(Icons.keyboard_double_arrow_left_rounded, "'L"),
+                  _buildButton(Icons.keyboard_double_arrow_left_rounded, "L"),
                   const SizedBox(width: 40),
                   _buildButton(Icons.keyboard_double_arrow_right_rounded, "R"),
                 ],
